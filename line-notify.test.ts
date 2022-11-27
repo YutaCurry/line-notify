@@ -1,4 +1,4 @@
-import { lineNotify } from "./line-notify"
+import { lineNotify } from "."
 import dotenv from "dotenv"
 
 dotenv.config()

@@ -1,1 +1,1 @@
-export { lineNotify } from "./src/line-notify"
+export * from "./src/line-notify"
