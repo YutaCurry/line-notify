@@ -1,11 +1,11 @@
 {
   "name": "line-notify",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "",
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "test": "node --es-module-specifier-resolution=node --loader ts-node/esm line-notify.test.ts"
+    "test": "node --loader ts-node/esm line-notify.test.ts"
   },
   "repository": {
     "type": "git",
