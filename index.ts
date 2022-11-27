@@ -1,0 +1,1 @@
+export { lineNotify } from "./src/line-notify"
