@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-node": "ts-node"
+    "test": "node --loader ts-node/esm line-notify.test.ts"
   },
   "repository": {
     "type": "git",
