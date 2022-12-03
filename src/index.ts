@@ -1,1 +1,1 @@
-export * from "./line-notify"
+export * from './line-notify';

@@ -1,2 +1,2 @@
-export * from "./line-notify";
+export * from './line-notify';
 //# sourceMappingURL=index.d.ts.map

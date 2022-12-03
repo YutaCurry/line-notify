@@ -6,5 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const _1 = require(".");
 const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config();
-(0, _1.lineNotify)('test', process.env.LINE_NOTIFY_TOKEN).then(e => console.log({ e })).catch(e => console.log(e));
+(0, _1.lineNotify)('test', process.env.LINE_NOTIFY_TOKEN)
+    .then((e) => console.log({ e }))
+    .catch((e) => console.log(e));
 //# sourceMappingURL=line-notify.test.js.map

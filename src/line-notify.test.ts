@@ -1,6 +1,8 @@
-import { lineNotify } from "."
-import dotenv from "dotenv"
+import { lineNotify } from '.';
+import dotenv from 'dotenv';
 
-dotenv.config()
+dotenv.config();
 
-lineNotify('test', process.env.LINE_NOTIFY_TOKEN as string).then(e => console.log({e})).catch(e => console.log(e))
+lineNotify('test', process.env.LINE_NOTIFY_TOKEN as string)
+  .then((e) => console.log({ e }))
+  .catch((e) => console.log(e));

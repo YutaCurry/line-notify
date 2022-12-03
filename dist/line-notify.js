@@ -13,7 +13,7 @@ exports.lineNotify = void 0;
 const clients_1 = require("./clients");
 function lineNotify(message, lineNotifyToken) {
     return __awaiter(this, void 0, void 0, function* () {
-        // const url =  
+        // const url =
         // const options = {
         //     method: 'post',
         //     contentType: 'application/x-www-form-urlencoded',
@@ -28,7 +28,7 @@ function lineNotify(message, lineNotifyToken) {
             headers: {
                 Authorization: `Bearer ${lineNotifyToken}`,
                 'content-type': 'application/x-www-form-urlencoded',
-            }
+            },
         });
         return {
             status: res.status,
